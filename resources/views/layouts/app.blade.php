@@ -34,7 +34,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                      <li><a href="{{ route('questions::index') }}">{{ __('Questions') }}</a></li>
+                      <li><a href="{{ route('answers::index') }}">{{ __('Answers') }}</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -68,7 +69,7 @@
         </nav>
 
         <main class="py-4">
-            @yield('content')
+              @yield('content')
         </main>
     </div>
 </body>

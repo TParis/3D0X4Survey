@@ -79,7 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    @isset($question)
+                      {{ $question->question }}
+                    @endisset
                 </div>
 
                 <div class="links">

@@ -1,0 +1,17 @@
+
+.main-content {
+  background-color: #FFF;
+  -webkit-box-shadow: 10px 5px 31px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 5px 31px -9px rgba(0,0,0,0.75);
+  box-shadow: 10px 5px 31px -9px rgba(0,0,0,0.75);
+  min-height: 700px;
+  padding: 15px;
+}
+
+form > div.row {
+  margin-bottom: 10px;
+}
+
+nav li {
+  margin-left: 10px;
+}
